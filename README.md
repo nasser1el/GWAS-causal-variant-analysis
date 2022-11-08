@@ -33,7 +33,7 @@ The necessary parameters for UNITY, heritability, genetic correlation, number of
 
 ![MDD vs. SCZ](/results/mdd_vs_scz_MiXeR.svg)
 
-MiXeR results are presented as a venn diagram showing the estimate of unique and shared causal variants in thousands with the standard error reported in parentheses. The proportions of causal variants were taken directly from csv files produced by MiXeR and reported here as percentages. For bipolar disorder and schizophrenia, MiXeR estimated 0 unique causal variants for bipolar disorder (~0%), 6.7 K shared causal variants (~0.0021%), and 11.2 K unique causal variants for schizophrenia (~0.0035%). For bipolar disorder and major depressive disorder, MiXeR estimated 2.6 K unique causal variants for bipolar disorder (~ 0.0008%), 4.1 K shared causal variants (~0.0013%), and 1.4 K unique causal variants for major depressive disorder (~0.0004%). For major depressive disorder and schizophrenia, MiXeR estimated 0.7 K unique causal variants for major depressive disorder (~0.0002%), 5.5 K shared causal variants (~0.0017%), and 12.3 K unique causal variants for schizophrenia (~0.0039%).  
+MiXeR results are presented as a venn diagram showing the estimate of unique and shared causal variants in thousands with the standard error reported in parentheses. The proportions of causal variants were taken directly from csv files produced by MiXeR and reported here as percentages. For bipolar disorder and schizophrenia, MiXeR estimated 0 unique causal variants for bipolar disorder (0%), 6.7 K shared causal variants (0.0021%), and 11.2 K unique causal variants for schizophrenia (0.0035%). For bipolar disorder and major depressive disorder, MiXeR estimated 2.6 K unique causal variants for bipolar disorder (0.0008%), 4.1 K shared causal variants (0.0013%), and 1.4 K unique causal variants for major depressive disorder (0.0004%). For major depressive disorder and schizophrenia, MiXeR estimated 0.7 K unique causal variants for major depressive disorder (0.0002%), 5.5 K shared causal variants (0.0017%), and 12.3 K unique causal variants for schizophrenia (0.0039%).  
 <br/>
 <br/>
 <ins>UNITY</ins> <br/>
@@ -41,7 +41,7 @@ MiXeR results are presented as a venn diagram showing the estimate of unique and
 | BIP vs. SCZ                               | BIP vs. MDD                                | MDD vs. SCZ                               |
 |:-----------------------------------------:|:------------------------------------------:|:-----------------------------------------:|
 |![bip_vs_scz.png](/results/bip_vs_scz.png) | ![bip_vs_mdd.png](/results/bip_vs_mdd.png) | ![mdd_vs_scz.png](/results/mdd_vs_scz.png)|
-
+<br/>
 UNITY results are reported as proportions of causal variants which were then used to form the figures seen above. For bipolar disorder and schizophrenia, UNITY estimated 0.0003% non-causal variants, 0.93% unique causal variants for bipolar disorder, 0.068% unique causal variants for schizophrenia, and 0.0006% shared causal variants. For bipolar disorder and major depressive disorder, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for bipolar disorder, 0.50% unique causal variants for major depressive disorder, and 0% shared causal variants. For major depressive disorder and schizophrenia, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for major depressive disorder, 0.50% unique causal variants for schizophrenia, and 0% shared causal variants. 
 
 <h1>Discussion</h1>
