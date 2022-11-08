@@ -26,10 +26,22 @@ The necessary parameters for UNITY, heritability, genetic correlation, number of
 
 <h1>Results</h1>
 <ins>MiXeR</ins> <br/>
+
+![bip_vs_scz_MiXeR.svg](/results/bip_vs_scz_MiXeR.svg)
+
+![BIP vs. MDD](/results/bip_vs_mdd_MiXeR.svg)
+
+![MDD vs. SCZ](/results/mdd_vs_scz_MiXeR.svg)
+
 MiXeR results are presented as a venn diagram showing the estimate of unique and shared causal variants in thousands with the standard error reported in parentheses. The proportions of causal variants were taken directly from csv files produced by MiXeR and reported here as percentages. For bipolar disorder and schizophrenia, MiXeR estimated 0 unique causal variants for bipolar disorder (~0%), 6.7 K shared causal variants (~0.0021%), and 11.2 K unique causal variants for schizophrenia (~0.0035%). For bipolar disorder and major depressive disorder, MiXeR estimated 2.6 K unique causal variants for bipolar disorder (~ 0.0008%), 4.1 K shared causal variants (~0.0013%), and 1.4 K unique causal variants for major depressive disorder (~0.0004%). For major depressive disorder and schizophrenia, MiXeR estimated 0.7 K unique causal variants for major depressive disorder (~0.0002%), 5.5 K shared causal variants (~0.0017%), and 12.3 K unique causal variants for schizophrenia (~0.0039%).  
 <br/>
 <br/>
 <ins>UNITY</ins> <br/>
+
+| BIP vs. SCZ                               | BIP vs. MDD                                | MDD vs. SCZ                               |
+|:-----------------------------------------:|:------------------------------------------:|:-----------------------------------------:|
+|![bip_vs_scz.png](/results/bip_vs_scz.png) | ![bip_vs_mdd.png](/results/bip_vs_mdd.png) | ![mdd_vs_scz.png](/results/mdd_vs_scz.png)|
+
 UNITY results are reported as proportions of causal variants which were then used to form the figures seen above. For bipolar disorder and schizophrenia, UNITY estimated 0.0003% non-causal variants, 0.93% unique causal variants for bipolar disorder, 0.068% unique causal variants for schizophrenia, and 0.0006% shared causal variants. For bipolar disorder and major depressive disorder, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for bipolar disorder, 0.50% unique causal variants for major depressive disorder, and 0% shared causal variants. For major depressive disorder and schizophrenia, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for major depressive disorder, 0.50% unique causal variants for schizophrenia, and 0% shared causal variants. 
 
 <h1>Discussion</h1>
@@ -60,3 +72,5 @@ Stahl, E.A., Breen, G., Forstner, A.J. et al. Genome-wide association study iden
 Ripke, S., O'Dushlaine, C., Chambert, K. et al. Genome-wide association analysis identifies 13 new risk loci for schizophrenia. Nat Genet 45, 1150–1159 (2013). https://doi.org/10.1038/ng.2742
 
 Wray, N.R., Ripke, S., Mattheisen, M. et al. Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression. Nat Genet 50, 668–681 (2018). https://doi.org/10.1038/s41588-018-0090-3
+
+Analysis and research was completed alongside Lisa Wang, Nikita Patra, and Riley Xin
