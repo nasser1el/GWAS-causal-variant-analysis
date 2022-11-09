@@ -6,6 +6,7 @@ Understanding polygenic overlap of diseases can provide insight into the shared 
 <h1>Introduction</h1>
 MiXeR and UNITY are two statistical tools that aim to quantify polygenic overlap for two traits using only their GWAS summary statistics. UNITY, rather than using an infinitesimal framework that makes the simplifying assumption that all SNPs have a small, but non-zero, effect on a trait, utilizes a non-infinitesimal genetic architecture that combines methods of genetic correlation and colocalization to identify the proportion of non-causal variants, shared causal variants, and trait-specific causal variants for a pair of traits. MiXeR estimates the total quantity of shared and trait-specific causal variants irrespective of genetic correlation through the use of a bivariate model, which assumes the majority of variants to have zero effect on the trait and follows a normal distribution. UNITY makes fewer assumptions about the distribution and contribution of single variants, and it follows a richly parameterized Bayesian model that allows manipulation of influencing factors like trait heritability.
 <br/>
+<br/>
 While UNITY was tested on simulated data and height and BMI data, we had concerns about its applicability to real cross-trait analysis for more complex traits. Therefore, we set out to compare the estimates of UNITY and MiXeR, which was more extensively tested on real GWAS data, using GWAS data for schizophrenia, bipolar disorder, and major depressive disorder.
 <br/>
 <h1>Materials and Methods</h1>
@@ -35,13 +36,12 @@ The necessary parameters for UNITY, heritability, genetic correlation, number of
 
 MiXeR results are presented as a venn diagram showing the estimate of unique and shared causal variants in thousands with the standard error reported in parentheses. The proportions of causal variants were taken directly from csv files produced by MiXeR and reported here as percentages. For bipolar disorder and schizophrenia, MiXeR estimated 0 unique causal variants for bipolar disorder (0%), 6.7 K shared causal variants (0.0021%), and 11.2 K unique causal variants for schizophrenia (0.0035%). For bipolar disorder and major depressive disorder, MiXeR estimated 2.6 K unique causal variants for bipolar disorder (0.0008%), 4.1 K shared causal variants (0.0013%), and 1.4 K unique causal variants for major depressive disorder (0.0004%). For major depressive disorder and schizophrenia, MiXeR estimated 0.7 K unique causal variants for major depressive disorder (0.0002%), 5.5 K shared causal variants (0.0017%), and 12.3 K unique causal variants for schizophrenia (0.0039%).  
 <br/>
-<br/>
 <ins>UNITY</ins> <br/>
 
 | BIP vs. SCZ                               | BIP vs. MDD                                | MDD vs. SCZ                               |
 |:-----------------------------------------:|:------------------------------------------:|:-----------------------------------------:|
 |![bip_vs_scz.png](/results/bip_vs_scz.png) | ![bip_vs_mdd.png](/results/bip_vs_mdd.png) | ![mdd_vs_scz.png](/results/mdd_vs_scz.png)|
-<br/>
+
 UNITY results are reported as proportions of causal variants which were then used to form the figures seen above. For bipolar disorder and schizophrenia, UNITY estimated 0.0003% non-causal variants, 0.93% unique causal variants for bipolar disorder, 0.068% unique causal variants for schizophrenia, and 0.0006% shared causal variants. For bipolar disorder and major depressive disorder, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for bipolar disorder, 0.50% unique causal variants for major depressive disorder, and 0% shared causal variants. For major depressive disorder and schizophrenia, UNITY estimated 0.50% non-causal variants, 0% unique causal variants for major depressive disorder, 0.50% unique causal variants for schizophrenia, and 0% shared causal variants. 
 
 <h1>Discussion</h1>
